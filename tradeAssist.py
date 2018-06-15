@@ -187,5 +187,3 @@ def sellPositionTarget(_index,_price):
 		_trade.getPrices().remove(_price)
 
 
-#newTrade("ETHUSDT",475,0.5,470,[606,607],[50,50])
-#newTrade("IOTAUSDT",200,1.60,[1.70,1.75],[50,50])
