@@ -17,6 +17,10 @@ stoped = 0;
 #main function
 if __name__ == "__main__":
 	print ("running...")
+	###
+	# ADD TRADES HERE #
+	#ex. newTrade("IOTAUSDT",1.19,1000,1.18,[1.25,1.30],[50,50])#
+	###
 	while True:
 		if len(openTrades) !=0:
 			checkPrices()
