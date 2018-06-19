@@ -13,4 +13,7 @@ python tradeAssist.py
 schedule a new trade by following the instructions</br>
 
 
+## Important
+The code executes test-orders, to execute real orders change the code from create_test_order to create_order. Do this at your own risk.
+
 
