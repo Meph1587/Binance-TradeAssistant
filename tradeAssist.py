@@ -217,7 +217,7 @@ if __name__ == "__main__":
 			ask = input("want to add a trade?(y/n): ")
 			if ask == "y":
 				#get trade info
-				_type = input("enter LONG or SHORT: ")
+				_type = input("enter BUY or SELL: ")
 				_pair = input("enter a pair: ")
 				_entry = input ("enter an entry price: ")
 				_amount = input ("enter the amount to tarde: ")
