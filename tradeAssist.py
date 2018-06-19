@@ -4,7 +4,7 @@ import math
 
 #make connector with API keyes 
 client = Client(
-	"Key2",
+	"KEY",
 	"KEY2"
 	)
 
@@ -98,7 +98,8 @@ def checkPrices():
 
 		entry = toCheck[0].getLevel()
 		stopLoss = toCheck[1].getLevel()
-
+ 
+		#creat a new long position
 		if _type == "BUY":
 			#needs to buy?
 			if trade.initiated == False:
@@ -117,7 +118,7 @@ def checkPrices():
 							ExecutedAtTarget(counter,price,"SELL")
 							break;
 
-
+		#creat a new short position
 		if _type == "SELL":
 			#needs to buy?
 			if trade.initiated == False:
