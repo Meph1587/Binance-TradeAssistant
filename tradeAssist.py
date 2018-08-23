@@ -65,7 +65,7 @@ class trade:
 #function to create a new price, requires an entry price at which to buy _amount, a stop-loss target
 # an array of price targtes at which to sell and the percentage eto sell at each target price
 # EX: buy 1000 IOTA at 1.19$, set stop at 1.18$, sell 50% at 1.25$ and 50% at 1.30$ looks like:
-# newTrade("BUY",IOTAUSDT",1.19,1000,1.18,[1.25,1.30],[50,50])
+# newTrade("BUY", IOTAUSDT", 1.19, 1000, 1.18, [1.25, 1.30], [50, 50] )
 def newTrade(_type,_pair,_entry,_amount,_stop,_priceTargets,_levels):
 	prices = [];
 	prices.append(priceTarget(_entry,100))
