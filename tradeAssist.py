@@ -15,7 +15,7 @@ filled = 0 ;
 stoped = 0;
 
 
-# class for price levels + percentage
+# class for price levels percentage
 class priceTarget:
 
 	level=0;
