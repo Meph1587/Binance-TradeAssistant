@@ -30,7 +30,7 @@ class priceTarget:
 	def getPerc(self):
 		return self.perc;
 
-#class defining a trade
+#class definition of a trade
 class trade:
 
 	pair="";
